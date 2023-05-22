@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
     <title>GAME</title>
 </head>
 <body>
     ----This is my first html assignment ----------
-    Is it nececsary to learn every component of html like button, list, radio
-    button, links, text areas? No, Only important things we will learn.
+    <br>Is it nececsary to learn every component of html like
+    <br>button, list, radio button, links, text areas? 
+    <br>No, Only important things we will learn.
     Ordered and unordered list:
     <ol>
         <li>Financial</li>
@@ -50,7 +52,28 @@
         <input type="email" placeholder="enter mail id to continue">
         <input type="submit" value="clickToEnroll">
     </form>
-    
-    
+    <br><label>Are you married?</label>
+    <br><label for="married">Married</label>
+    <input id="married" type="radio" name="marriedName" value="yes">
+    <label for="unmarried">&emsp;Unmarried</label>
+    <input id="unmarried" type="radio" name="marriedName" value="no">
+    <br><label>Select the payment mode</label>
+    <select name="payment">
+        <option>
+        <option value="CC">Credit card</option>
+        <option value="DD">Debit card</option>
+        <option value="NB">Net banking</option>
+        <option value="UPI">UPI</option>
+    </select>
+    <br>---------------------------------------------------
+    <br><b>Now let's learn the CSS</b>
+    <h4 style="color:blue">Inline style example</h4>
+    <style>
+        h4{
+            color:royalblue;
+        }
+    </style>            
+    <h4>Style tag example</h4>
+    <h3>External css example</h3>
 </body>
 </html>
