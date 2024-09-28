@@ -171,4 +171,5 @@ let employee = {
     name :"Akshay Chincholkar",
     age: 30
 }
+
 console.log(employee)
