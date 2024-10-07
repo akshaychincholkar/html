@@ -173,3 +173,5 @@ let employee = {
 }
 
 console.log(employee)
+// Data types: 1. Primitive: String, Boolean, Number, Undefined and Null
+//             2. Non-Primitive: Objects
